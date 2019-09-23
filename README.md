@@ -1,0 +1,2 @@
+# hr-app
+HR web application, that maintain the following functionalities login module, as we have two users’ types, employee and HR assistant.  Employees could edit and save their data, they also can search for company benefits like offers, new medical benefits, other news, and so on.  HR assistance user is responsible for all employees CRUD operations. Note that each employee has a manager and only one manager, also which department this employee works for.  HR Assistant is responsible for adding, editing and deleting benefits.
