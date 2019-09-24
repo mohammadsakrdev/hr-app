@@ -1,9 +1,9 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-const dev = require('./dev');
-const production = require('./production');
-const test = require('./test');
+const dev = require('./dev-config');
+const production = require('./production-config');
+const test = require('./test-config');
 
 module.exports = (() => {
   let exportCfg;
