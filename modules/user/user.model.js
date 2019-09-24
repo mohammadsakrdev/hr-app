@@ -44,6 +44,7 @@ const userSchema = new Schema(
     address: {
       type: String
     },
+    // direct manager
     manager: {
       type: Schema.ObjectId,
       ref: 'User'
