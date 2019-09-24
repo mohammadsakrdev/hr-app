@@ -9,7 +9,6 @@ acl = new acl(new acl.memoryBackend());
 
 module.exports = () => {
   const files = glob.sync('./modules/**/*.policy.js');
-  // const files = glob.sync('./modules/auth/auth.policy.js');
   files.forEach(file => require(path.resolve(file)).invokeRolesPolicies(acl));
 };
 const jwtStrategyOptions = {
